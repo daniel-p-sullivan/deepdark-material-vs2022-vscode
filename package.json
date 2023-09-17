@@ -2,7 +2,19 @@
     "name": "deepdark-material-vs2022",
 	"displayName": "Deepdark Material Theme - Full Black VS 2022",
 	"description": "A modified version of Nimba's VS Code Deepdark Material Theme so that it more closely matches his Visual Studio 2022 version.",
-	"homepage": "",
+	"homepage": "https://github.com/daniel-p-sullivan/deepdark-material-vs2022-vscode",
+    "author": {
+        "name": "Dan Sullivan"
+    },
+    "publisher": "DanSullivan",
+    "bugs": {
+        "url": "https://github.com/daniel-p-sullivan/deepdark-material-vs2022-vscode/issues",
+        "email": "daniel.p.sullivan@utexas.edu"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/daniel-p-sullivan/deepdark-material-vs2022-vscode.git"
+    },
     "version": "1.0.0",
     "engines": {
         "vscode": "*"
