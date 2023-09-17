@@ -1,0 +1,52 @@
+{
+    "name": "deepdark-material-vs2022",
+	"displayName": "Deepdark Material Theme - Full Black VS 2022",
+	"description": "A modified version of Nimba's VS Code Deepdark Material Theme so that it more closely matches his Visual Studio 2022 version.",
+	"homepage": "",
+    "version": "1.0.0",
+    "engines": {
+        "vscode": "*"
+    },
+    "license": "MIT",
+    "galleryBanner": {
+		"color": "#080808",
+		"theme": "dark"
+	},
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Deepdark Material Theme | Full Black VS 2022",
+                "uiTheme": "vs-dark",
+                "path": "./themes/fullblack-deepdark-material-vs2022.json"
+            }
+        ],
+        "iconThemes": [
+            {
+                "id": "deepdark-material-icons",
+                "label": "Deepdark Material Icon Package",
+                "path": "./icons/icons.json"
+            }
+        ]
+    },
+    "scripts": {
+		"format:fix": "eslint --fix '*.{js,json}' 'themes/*.{js,json}'",
+		"test": "npm run test:js && npm run test:json && npm run test:md && npm run format:fix",
+		"test:js": "eslint '*.js' 'themes/*.js'",
+		"test:json": "eslint '*.json' 'themes/*.json'",
+		"test:md": "remark 'README.md'"
+	},
+	"devDependencies": {
+		"@arcticicestudio/eslint-config-base": "^0.11.0",
+		"@arcticicestudio/remark-preset-lint": "^0.4.0",
+		"@babel/eslint-parser": "^7.14.5",
+		"eslint": "^7.23.0",
+		"eslint-plugin-import": "^2.13.0",
+		"eslint-plugin-json": "^1.4.0",
+		"eslint-plugin-prettier": "^3.3.1",
+		"prettier": "^1.13.7",
+		"remark-cli": "^9.0.0"
+	}
+}

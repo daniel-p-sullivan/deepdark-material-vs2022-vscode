@@ -1,0 +1,3 @@
+A modified version of <a href='https://marketplace.visualstudio.com/items?itemName=Nimda.deepdark-material'>Nimda's Deepdark Material Theme</a> for VS Code to more closely match the colors in his <a href='https://marketplace.visualstudio.com/items?itemName=Nimda.vs-deepdark-material'>Deepdark Material Theme for Visual Studio</a>.  I added italics and bold styling in too because honestly more themes should have that. 
+
+![](./assets/theme-preview.png)
